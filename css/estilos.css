@@ -29,10 +29,10 @@ header{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 20px 0;
+    padding: 20px 20px;
 }
 
-.navbar{
+.container_navbar{
     background-color: #181818;  
 }
 
@@ -48,7 +48,8 @@ header a,
 
 li{
     list-style: none;
-    margin-left: 30px;
+    /*margin-left: 30px;*/
+    text-align: center;
 }
 
 a{
@@ -248,3 +249,59 @@ span.m-left{
     opacity: 0.5;
     background-size: cover;
 }
+
+@media(max-width: 600px){
+    .container_navbar header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+ }
+
+    #letra{
+        margin-right: 35px;
+    }
+
+    #nombre{
+        font-size: 40px;
+    }
+
+    #coma{
+        display: none;
+    }
+
+    #toma{
+        font-size: 28px;
+    }
+
+    .profile-image  img{
+        width: 150px;
+    }
+
+    .description .des-text{
+        width: 275px;
+        margin-left: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .description .des-text p{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .des-img{
+        display: inline-block;
+    }
+
+    .des-img img{
+        width: 275px;
+        height: 200px;
+
+    }
+
+   
+}
+
+
