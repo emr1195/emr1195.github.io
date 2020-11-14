@@ -164,36 +164,25 @@ span.m-left{
 
 .proyects{
     width: 100%;
-    height: 100vh;
+    margin-top: 50px;
+    display: flex;
 }
 
-.proyects .enlace a{
+.proyects  a{
+    width: 100%;
+    height: 100%;
     position: relative;
-    margin-left: 860px;
-    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #fff;
 }
 
-.proyects .enlace .eps5{
-    margin-left: 290px;
-}
-
-.proyects .enlace .receta{
-    margin-left: 885px;
-}
-
-.proyects .enlace .kids{
-    margin-left: 925px;
-}
-
-.proyects .enlace .moto{
-    margin-left: 885px;
-}
 
 
 .proyects div{
-    width: 20px;
-    height: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
     margin-top: 30px;
     position: relative;
 }
@@ -204,11 +193,9 @@ span.m-left{
 
 
 .proyects .ps5{
-    width: 450px;
-    height: 570px;
-    margin-top: 50px;
-    margin-left: 100px;
-    border-radius: 50px;
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
     background-image: url("../img/ps5.png");
     opacity: 0.5;
     background-size: cover;
@@ -216,23 +203,18 @@ span.m-left{
 }
 
 .proyects .Recetario{
-    width: 500px;
-    height: 130px;
-    margin-top: -600px;
-    margin-left: 700px;
-    border-radius: 50px;
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
     background-image: url("../img/rp.png");
     opacity: 0.5;
     background-size: cover;
-
-
 }
 
 .proyects .KND{
-    width: 500px;
-    height: 130px;
-    margin-left: 700px;
-    border-radius: 50px;
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
     background-image: url("../img/kndp.png");
     opacity: 0.5;
     background-size: cover;
@@ -241,11 +223,37 @@ span.m-left{
 }
 
 .proyects .motos{
-    width: 500px;
-    height: 130px;
-    margin-left: 700px;
-    border-radius: 50px;
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
     background-image: url("../img/mp.png");
+    opacity: 0.5;
+    background-size: cover;
+}
+
+.eyw{
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    background-image: url("../img/eywp.png");
+    opacity: 0.5;
+    background-size: cover;
+}
+
+.poke{
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    background-image: url("../img/pokewall.png");
+    opacity: 0.5;
+    background-size: cover;
+}
+
+.assassin{
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    background-image: url("../img/asw.png");
     opacity: 0.5;
     background-size: cover;
 }
@@ -300,6 +308,14 @@ span.m-left{
         height: 200px;
 
     }
+
+    .proyects{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
 
    
 }
